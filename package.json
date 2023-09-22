@@ -1,0 +1,24 @@
+{
+    "name": "animejs",
+    "version": "3.2.1",
+    "homepage": "http://animejs.com",
+    "repository": "juliangarnier/anime",
+    "description": "JavaScript animation engine",
+    "umd:main": "lib/anime.min.js",
+    "module": "lib/anime.es.js",
+    "main": "lib/anime.js",
+    "umd:name": "anime",
+    "license": "MIT",
+    "author": "Julian Garnier <hello@julian.gr>",
+    "files": [
+        "lib"
+    ],
+    "devDependencies": {
+        "tailwindcss": "^3.3.3"
+    },
+    "dependencies": {
+        "@tailwindcss/aspect-ratio": "^0.4.2",
+        "animejs": "^3.2.1",
+        "es6": "^0.0.7"
+    }
+}

@@ -1,0 +1,12 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* @layer components {
+    .anime {
+    @apply w-13 h-8 rounded-md bg-slate-800 text-slate-100 text-sm absolute text-center font-bold flex justify-center p-1.5 -mt-9 -ml-3 animate-bounce;
+    }
+  
+  }  */
