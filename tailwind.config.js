@@ -2,7 +2,7 @@
 /** @type {import('tailwindcss').Config} */
 import plugins from 'tailwindcss/plugin'
 export const content = [
-  './src/**/*.{html,js}',
+  './build/**/*.{html,js}',
   './pages/**/*.{html,js}',
   './components/**/*.{html,js}',
 ]
