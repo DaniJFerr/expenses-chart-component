@@ -33,7 +33,7 @@ addElements.forEach(function(addElement) {
 
     if (daysOfWeek.includes(event.target.classList[0])) {
       const newElement = document.createElement('div');
-      newElement.classList.add('anime', 'w-13', 'h-8', 'rounded-md','bg-slate-800', 'text-slate-100', 'text-sm', 'absolute', 'text-center', 'font-bold', 'flex','justify-center','p-1','-mt-9','-ml-2', 'animate-bounce');
+      newElement.classList.add('anime', 'w-13', 'h-8', 'rounded-md','bg-slate-800', 'text-slate-100', 'text-sm', 'shadow-lg','shadow-cyan-500/50','absolute', 'text-center', 'font-bold', 'flex','justify-center','p-1','-mt-9','-ml-2', 'animate-bounce');
       
       newElement.textContent = getSpentForDay(event.target.classList[0]);
 
