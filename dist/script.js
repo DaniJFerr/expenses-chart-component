@@ -1,4 +1,4 @@
-import anime from '../lib/animees.js';
+import anime from './animees.js';
 
 document.addEventListener('DOMContentLoaded', function(event) {
   event.preventDefault();
