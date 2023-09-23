@@ -25,7 +25,6 @@ document.addEventListener('DOMContentLoaded', function(event) {
   });
 });
 
-
 const addElements = document.querySelectorAll('li');
 
 addElements.forEach(function(addElement) {
