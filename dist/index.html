@@ -16,10 +16,12 @@
     <div class="animate-animation" animation>
 
       <section class="balance shadow-md h-24 rounded-xl bg-red-400 my-5 mx-5 px-5 py-4">
-        <div class="w-8 h-8 rounded-full border-orange-100 absolute"></div>
-        <div class="w-8 h-8 rounded-full bg-zinc-800 absolute -mr-96"></div>
-        <p class="text-slate-100 px-3 font-sans">My balance</p>
-        <h1 class="totalBalance text-slate-100 font-sans font-semibold text-3xl px-3"></h1>
+          <ul>
+            <li class="absolute ml-64 sm:ml-80 mt-4 pl-2 translate-x-0.5 duration-500"><div class="w-8 h-8 rounded-full bg-zinc-800"></div></li>
+            <li class="absolute ml-56 sm:ml-72 mt-4 pl-6"><div class="w-8 h-8 rounded-full border-2 border-orange-100"></div></li>
+            <li><p class="text-slate-100 px-3 text-xs font-sans">My balance</p></li>
+            <li><h1 class="totalBalance text-slate-100 font-sans font-semibold text-3xl px-3"></h1></li>
+          </ul>
         </section>   
     
          <section class="spending shadow-md rounded-xl h-96 bg-white my-5 mx-5 py-5 px-4">
@@ -28,37 +30,37 @@
             <ul class="spending-list flex items-end pt-14 px-2 pb-4">  
                <li class="sm:m-2 ml-1 mr-1 text-center cursor-pointer">
                  <div class="mon select w-9 h-9 rounded-md bg-red-400 hover:bg-cyan-500 "></div>
-                 <P class="font-sans">mon</P>
+                 <P class="font-sans text-gray-400">mon</P>
                 </li>
 
                  <li class="sm:m-2 ml-1 mr-1 text-center cursor-pointer">
                    <div class="tue select w-9 h-16 rounded-md bg-red-400 hover:bg-cyan-500 "></div>
-                   <P class="font-sans">tue</P>
+                   <P class="font-sans text-gray-400">tue</P>
                   </li>
 
                    <li class="sm:m-2 ml-1 mr-1 text-center cursor-pointer">
                      <div class="wed select w-9 h-24 rounded-md bg-red-400 hover:bg-cyan-500"></div>
-                     <P class="font-sans">wed</P>
+                     <P class="font-sans text-gray-400">wed</P>
                     </li>
 
                      <li class="sm:m-2 ml-1 mr-1 text-center cursor-pointer">
                        <div class="thu select w-9 h-16 rounded-md bg-red-400 hover:bg-cyan-500"></div>
-                       <P class="font-sans">thu</P>
+                       <P class="font-sans text-gray-400">thu</P>
                       </li>
 
                        <li class=" sm:m-2 ml-1 mr-1 text-center cursor-pointer">
                          <div class="fri select w-9 h-14 rounded-md bg-red-400 hover:bg-cyan-500"></div>
-                         <P class="font-sans"> fri</P>
+                         <P class="font-sans text-gray-400"> fri</P>
                         </li>
 
                          <li class="sm:m-2 ml-1 mr-1 text-center cursor-pointer">
                            <div class="sat select w-9 h-20 rounded-md bg-red-400  hover:bg-cyan-500"></div>
-                           <p class="font-sans">sat</p>
+                           <p class="font-sans text-gray-400">sat</p>
                           </li>
 
                            <li class="sm:m-2 ml-1 mr-1 text-center cursor-pointer">
                              <div class="sun select w-9 h-14 rounded-md bg-red-400 hover:bg-cyan-500"></div>
-                             <p class="font-sans">sun</p>
+                             <p class="font-sans text-gray-400">sun</p>
                             </li>
                             </ul>
 
@@ -67,12 +69,12 @@
                   <div class="mt-8 ">
                     <ul class="flex items-end sm:gap-x-44 gap-32 mx-2 ">
                       <li class="text-left font-sans">
-                       <p class="text-xs sm:-mt-14 -mt-12">Total this month</p>
+                       <p class="text-xs sm:-mt-14 -mt-12 text-gray-400">Total this month</p>
                         <h1 class="totalMonth font-bold text-3xl sm:text-4xl absolute"></h1>
                       </li>
                         <li class="text-right font-sans text-xs sm:text-sm">
                         <p class="font-bold ">+2.4%</p>
-                        <p>from last month</p>
+                        <p class="text-gray-400">from last month</p>
                       </li>
                     </ul>
                   </div>
